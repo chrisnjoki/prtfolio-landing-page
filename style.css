@@ -2,12 +2,15 @@ h1{
     color:aqua;
     text-align: center;
 }
+h2{
+    color: aqua;
+}
 body{
     background-color: antiquewhite;
     background-image: url(/home/kris/Downloads/patrik-storm-alstra-pictures-5RSqU21ia7Q-unsplash.jpg);
     background-size: 100vh;
 }
 p{
-    color:bisque;
+    color:honeydew;
     font-size: large;
 }
