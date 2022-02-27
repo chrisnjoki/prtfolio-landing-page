@@ -7,6 +7,8 @@ h2{
     color: khaki;
 }
 body{
+    margin: 0px;
+    padding: 0px;
     background-color: antiquewhite;
     background-image: url(/home/kris/Downloads/patrik-storm-alstra-pictures-5RSqU21ia7Q-unsplash.jpg);
     background-size: 100vh;
@@ -29,14 +31,27 @@ p{
     display: block;
 }
 .div2{
+
+    background-color: #080708;
+background-image: linear-gradient(225deg, #080708 0%, #73696d 50%, #2B86C5 100%);
+height: 200vh;
+display: block;
+
+}
+.div3{
     background-color: #080708;
 background-image: linear-gradient(225deg, #080708 0%, #73696d 50%, #2B86C5 100%);
 
 height: 100vh;
 display: grid;
+
 }
 h1{
     color: khaki;
     text-align: center;
     
+}
+
+a{
+    color: aqua;
 }
