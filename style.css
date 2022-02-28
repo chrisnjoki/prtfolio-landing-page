@@ -1,59 +1,48 @@
 h1{
     color:khaki;
-    text-align: center;
     font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+    border: #080708;
     
-}
-h2{
-    color: khaki;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color: antiquewhite;
-    background-image: url(/home/kris/Downloads/patrik-storm-alstra-pictures-5RSqU21ia7Q-unsplash.jpg);
-    background-size: 100vh;
-    margin: 0%;
-    
-}
-p{
-    color: honeydew;
-    font-size:larger;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.container{
-    height:100vh;
-    display:grid;
-    grid-template-columns:auto;
-}
-.div1{
-    height: 100vh;
-    display: block;
-}
-.div2{
-
     background-color: #080708;
-background-image: linear-gradient(225deg, #080708 0%, #73696d 50%, #2B86C5 100%);
-height: 300vh;
-display: block;
-
+    background-image: linear-gradient(225deg, #080708 0%, #73696d 50%, #2B86C5 100%);  
 }
-.div3{
-    background-color: #080708;
-background-image: linear-gradient(225deg, #080708 0%, #73696d 50%, #2B86C5 100%);
 
-height: 100vh;
-display: grid;
-
-}
-h1{
-    color: khaki;
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
     text-align: center;
-    
-}
-
-a{
-    color: aqua;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  p1{
+      color:brown;
+      font-size: xx-large;
+      font-weight: 200;
+  }
+  p{
+      color: honeydew;
+  }
+  
