@@ -41,8 +41,20 @@ body{
       color:brown;
       font-size: xx-large;
       font-weight: 200;
+      font-family: Georgia, 'Times New Roman', Times, serif;
   }
   p{
       color: honeydew;
   }
+
+  .main{
+      display: flex;
+      justify-content: space-evenly;
+  }
+.child{
+    font-size: 30px;
+}
+img{
+    border-radius: 20px;
+}
   
